@@ -3,7 +3,13 @@
 
 fn main(){
 
-    let x = 1;
-    x = 4;
+    println!(add_number(1, 2));
+
+}
+
+fn add_number(x i32, y i32) -> i32{
+
+    x + y
+
 }
 
