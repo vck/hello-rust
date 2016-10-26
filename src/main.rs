@@ -1,3 +1,9 @@
+//use std::io; 
+
+
 fn main(){
-println!("hello, world");
+
+    let x = 1;
+    x = 4;
 }
+
