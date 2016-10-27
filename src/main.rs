@@ -3,11 +3,11 @@
 
 fn main(){
 
-    println!(add_number(1, 2));
+    println!("result {}", add_number(1, 2));
 
 }
 
-fn add_number(x i32, y i32) -> i32{
+fn add_number(x:i32, y:i32) -> i32{
 
     x + y
 
